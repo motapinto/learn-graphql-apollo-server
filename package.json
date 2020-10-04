@@ -1,0 +1,25 @@
+{
+  "name": "graphql-apollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "apollo-server-express": "^2.18.1",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "json-server": "^0.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
