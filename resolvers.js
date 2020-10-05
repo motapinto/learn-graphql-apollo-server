@@ -33,7 +33,6 @@ const resolvers = {
 
     deleteCustomer: async (_, { id }) => {
       const res = await axios.delete("http://localhost:3000/customers/" + id);
-      console.log(res.data);
       return res.data;
     },
   },
