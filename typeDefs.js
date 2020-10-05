@@ -14,13 +14,8 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    addCustomer(name: String!, email: String!, age: String!): Customer!
-    editCustomer(
-      id: ID!
-      name: String!
-      email: String!
-      age: String!
-    ): Customer!
+    addCustomer(name: String!, email: String!, age: Int!): Customer!
+    editCustomer(id: ID!, name: String!, email: String!, age: Int!): Customer!
     deleteCustomer(id: ID!): Customer!
   }
 `;
