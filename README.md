@@ -38,3 +38,10 @@ mutation {
     age
   }
 }
+
+### Delete a customer
+mutation {
+  deleteCustomer(id: "1") {
+    id
+  }
+}
